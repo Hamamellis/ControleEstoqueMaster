@@ -1,0 +1,60 @@
+﻿@model ControleEstoque.Web.Models.NovaSenhaViewModel
+
+@{
+    ViewBag.Title = "Redefinição da Senha";
+}
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>
+
+<div class="container-redefinir-senha">
+    <div class="rowtitulologin">
+        <h3 class="titulo">
+            <img src="~/img/login/alteracaosenha.ico" alt="Setas de troca" style="width:20%" />
+            @ViewBag.Title
+        </h3>
+    </div>
+    <div class="row">
+        <section>
+            @using (Html.BeginForm("RedefinirSenha", "Conta", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(m => m.Usuario)
+                <div class="form-group">
+                    <div class="col-md-12">
+                        @Html.LabelFor(m => m.Senha, new { @class = "control-label" })
+                        @Html.PasswordFor(m => m.Senha, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Senha, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12">
+                        @Html.LabelFor(m => m.ConfirmacaoSenha, new { @class = "control-label" })
+                        @Html.PasswordFor(m => m.ConfirmacaoSenha, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.ConfirmacaoSenha, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                if (ViewBag.Mensagem != null)
+                {
+                    <div class="alert alert-success">
+                        <h4>@ViewBag.Mensagem</h4>
+                    </div>
+                }
+                <div class="form-group" style="text-align: center; margin-top: 50px">
+                    <img src="~/img/login/enviaremail.ico" style="width:7%" />
+                    <input type="submit" class="btn btn-success" value="Enviar" />
+                </div>
+             }
+
+
+        </section>
+    </div>
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}

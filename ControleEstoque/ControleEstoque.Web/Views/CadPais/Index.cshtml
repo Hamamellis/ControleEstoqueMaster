@@ -1,0 +1,118 @@
+﻿@model List<ControleEstoque.Web.Models.PaisModel>
+
+@{
+    Layout = "~/Views/Shared/_Cadastro.cshtml";
+    ViewBag.Title = "Grupo de Países";
+    ViewBag.Lista = Model;
+    ViewBag.Lista = Model;
+}
+
+<div class="row">
+    <h2>
+        <div class="rowimgpaises">
+            <div class="paisesimg">
+                <img src="~/img/paises/flagbrazil.ico" alt="Bandeira do Brasil" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flageua.ico" alt="Bandeira dos Estado Unidos" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flagargentina.ico" alt="Bandeira da Argentina" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flagchile.ico" alt="Bandeira do Chile" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flagjapao.ico" alt="Bandeira do Japão" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flaginglaterra.ico" alt="Bandeira da inglaterra" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flagparaguai.ico" alt="Bandeira do Paraguai" style="width:50%" />
+            </div>
+            <div class="paisesimg">
+                <img src="~/img/paises/flagbolivia.ico" alt="Bandeira da Bolívia" style="width:50%" />
+            </div>
+        </div>
+    </h2>
+</div>
+<hr />
+
+@* - ABAIXO - FIZEMOS O USO DE @RENDERSECTION E REFERENCIAMOS - *@
+
+@section Styles{
+    <link href="~/Content/bootstrap-select.css" rel="stylesheet" />
+    <link href="~/Content/Cadastro/Pais.css" rel="stylesheet" />
+}
+
+@section TituloGrid{
+     <th><span class="coluna-ordenacao" data-campo="nome">Nome</span></th>
+     <th><span class="coluna-ordenacao" data-campo="codigo">Código</span></th>
+     <th><span class="coluna-ordenacao" data-campo="ativo">Ativo</span></th>
+    <th>Ação:</th>
+}
+
+@section CamposCadastro {
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Label("txt_nome", "Nome:", new { @class = "control-label" })
+            @Html.TextBox("txt_nome", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Label("txt_codigo", "Código Internacional:", new { @class = "control-label" })
+            @Html.TextBox("txt_codigo", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row" style="margin-top: 15px">
+        <div class="col-md-12">
+            <div class="form-check">
+                @Html.Label("cbx_ativo", "Ativo:", new { @class = "control-label" })
+                @Html.CheckBox("cbx_ativo")
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script src="~/Scripts/bootstrap-select.js"></script>
+    <script>
+        var tituloPagina = '@ViewBag.Title';
+        var url_excluir = '@Url.Action("ExcluirPais", "CadPais")';
+        var url_confirmar = '@Url.Action("SalvarPais", "CadPais")';
+        var url_page_click = '@Url.Action("PaisPagina", "CadPais")';
+        var url_tam_pag_change = '@Url.Action("PaisPagina", "CadPais")';
+        var url_filtro_change = '@Url.Action("PaisPagina", "CadPais")';
+        var url_alterar = '@Url.Action("RecuperarPais", "CadPais")';
+        var linhas = [];
+        @{
+            var linha = 0;
+            foreach (var item in Model)
+            {
+                linha++;
+                if (linha <= ViewBag.QuantMaxLinhasPorPagina)
+                {
+                    @:linhas.push(@Html.Raw(Json.Encode(item)));
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+    </script>
+    <script src="~/Scripts/Cadastro/Pais.js"></script>
+    <script id="template-grid" type="x-tmpl-mustache">
+        <tr data-id="{{ Id }}">
+            <td>{{ Nome }}</td>
+            <td>{{ Codigo }}</td>
+            <td>{{ #Ativo }}SIM{{ /Ativo }}{{ ^Ativo }}NÃO{{ /Ativo }}</td>
+            <td>
+                <a class="btn btn-primary btn-alterar" role="button"><i class="glyphicon glyphicon-pencil"></i> Alterar</a>
+                <a class="btn btn-danger btn-excluir" role="button"><i class="glyphicon glyphicon-trash"></i> Excluir</a>
+            </td>
+        </tr>
+    </script>
+}

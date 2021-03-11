@@ -1,0 +1,213 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default
+input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+.container-login {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-esqueci-senha {
+    width: 500px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 10px;
+}
+
+.container-redefinir-senha {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.container-entrada-produto {
+    height: 300px;
+    width: 600px;
+}
+
+.container-saida-produto {
+    height: 300px;
+    width: 600px;
+}
+
+.container-tela {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.titulo{
+    margin-bottom: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.invisivel {
+    display: none;
+}
+
+.modal{
+    overflow-y: hidden;
+}
+
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+    margin-right: 0px;
+}
+
+.produtoimglogin {
+    text-align: center;
+    margin: 20px;
+}
+
+.rowtitulologin {
+    background-color: burlywood;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.produtoimggrupoproduto {
+    float: left;
+    width: 14%;
+    margin: 10px;
+    text-align: center;
+}
+
+.rowimggrupoproduto::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#loginForm {
+    margin-bottom: 10px;
+    padding: 10px 5px 5px 25px;    
+}
+
+.rowimgfooter {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+.perfisimgusuario {
+    float: left;
+    width: 13%;
+    margin: 5px;
+    text-align: center;
+}
+
+ .rowperfisusuario::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.imgmedida {
+    float: left;
+    width: 10%;
+    margin: 5px;
+    text-align: center;
+    padding-right: 25px
+}
+
+.rowmedidaimg::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.produtoimgmarcasprodutos {
+    float: left;
+    width: 14%;
+    margin: 10px;
+    text-align: center;
+}
+
+.rowimgmarcasprodutos::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.paisesimg {
+    float: left;
+    width: 10%;
+    margin: 14px;
+    text-align: center;
+}
+
+.rowimgpaises::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+}
+
+
+.estadosimg {
+    float: left;
+    width: 10%;
+    margin: 14px;
+    text-align: center;
+}
+
+.rowimgestados::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row > h2 {
+    background-color: burlywood;
+    padding: 10px;
+    border-bottom: 1px blue solid;
+}
+
+#mensagem_grid{
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: blanchedalmond;
+    }
+
+.dropdown-menu {
+    background-color: blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.text-info {
+    background-color: burlywood;
+    border: 1px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+hr{
+    border-color: burlywood;
+
+}

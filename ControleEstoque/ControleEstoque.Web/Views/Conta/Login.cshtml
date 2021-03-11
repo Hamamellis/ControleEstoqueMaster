@@ -1,0 +1,72 @@
+﻿@model ControleEstoque.Web.Models.LoginViewModel
+@{
+    ViewBag.Title = "Entrar no Sistema";
+}
+
+<style>
+    body {
+        background-color: blanchedalmond;
+    }
+</style>
+
+<div class="container-login">
+    <div class="rowtitulologin">
+        <h3 class="titulo">
+            <img src="~/img/login/senha.ico" alt="Cadeado para o Login" style="width:20%" />
+            @ViewBag.Title
+        </h3>
+    </div>
+    <div class="row">
+        <section id="loginForm">
+            @*Dentro do "Controller Conta", nós chamamos a "Action Login" e como parametros a "URL" usando o método tipo "Post" e algumas estilizações em @class*@
+            @using (Html.BeginForm("Login", "Conta", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @*Label*@
+                    @Html.LabelFor(m => m.Usuario, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-12">
+                        @*Form*@
+                        @Html.TextBoxFor(m => m.Usuario, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Usuario, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @*Label*@
+                    @Html.LabelFor(m => m.Senha, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-12">
+                        @*Form*@
+                        @Html.PasswordFor(m => m.Senha, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Senha, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-4">
+                        @*ChekBox*@
+                        @Html.CheckBoxFor(m => m.LembrarMe)
+                        @*Label*@
+                        @Html.LabelFor(m => m.LembrarMe)
+                    </div>
+
+                    <div class="col-md-6" style="text-align: right">
+                        @Html.ActionLink("Esqueci a minha Senha", "EsqueciMinhaSenha", "Conta", null, new { @class="btn btn-primary" })
+                    </div>
+
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        @*Input*@
+                        <input type="submit" class="btn btn-success" value="Entrar" />
+                    </div>
+                </div>
+            }
+        </section>
+    </div>
+</div>
+
+@*Devemos Criar a Ligação com "Usuario, Senha e LembrarMe" - O Nosso Model, (LoginViewModel.cs)...*@
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}

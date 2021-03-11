@@ -1,0 +1,126 @@
+﻿@model List<ControleEstoque.Web.Models.EstadoModel>
+@{
+    Layout = "~/Views/Shared/_Cadastro.cshtml";
+    ViewBag.Title = "de Estados";
+    ViewBag.Lista = Model;
+    ViewBag.Lista = Model;
+}
+
+<div class="row">
+    <h2>
+        <div class="rowimgestados">
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoSaoPaulo.png" alt="Brasão de São Paulo" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoRiodeJaneiro.png" alt="Brasão do Rio de Janeiro" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoTocantins.png" alt="Brasão de Tocantins" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoRioGrandedoSul.png" alt="Brasão do Rio Grande do Sul" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoPernambuco.png" alt="Brasão de Pernambuco" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoEspiritoSanto.png" alt="Brasão do Espírito Santo" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoMatoGrosso.png" alt="Brasão do Mato Grosso do Sul" style="width:60%" />
+            </div>
+            <div class="estadosimg">
+                <img src="~/img/estados/brasaoMinasGerais.png" alt="Brasão de Minas Gerais" style="width:60%" />
+            </div>
+        </div>
+    </h2>
+</div>
+<hr />
+@* - ABAIXO - FIZEMOS O USO DE @RENDERSECTION E REFERENCIAMOS - *@
+@section Styles{
+    <link href="~/Content/bootstrap-select.css" rel="stylesheet" />
+    <link href="~/Content/Cadastro/Estado.css" rel="stylesheet" />
+}
+
+@section TituloGrid {
+    <th><span class="coluna-ordenacao" data-campo="nome">Nome:</span></th>
+    <th><span class="coluna-ordenacao" data-campo="uf">UF:</span></th>
+    <th><span class="coluna-ordenacao" data-campo="ativo">Ativo:</span></th>
+    <th>Ação</th>
+}
+
+@section CamposCadastro {
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Label("txt_nome", "Nome", new { @class = "ontrol-label" })
+            @Html.TextBox("txt_nome", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Label("txt_uf", "UF", new { @class = "control-label" })
+            @Html.TextBox("txt_uf", null, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Html.Label("ddl_pais", "País", new { @class = "control-label" })
+            @Html.DropDownList("ddl_pais", new SelectList(ViewBag.Paises, "Id", "Nome"), new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="row" style="margin-top: 15px">
+        <div class="form-check">
+            <div class="col-md-12">
+                @Html.Label("cbx_ativo", "Ativo", new { @class = "control-label" })
+                @Html.CheckBox("cbx_ativo")
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts{
+    <script src="~/Scripts/bootstrap-select.js"></script>
+    <script>
+        var tituloPagina = '@ViewBag.Title';
+        var url_excluir = '@Url.Action("ExcluirEstado", "CadEstado")';
+        var url_confirmar = '@Url.Action("SalvarEstado", "CadEstado")';
+        var url_page_click = '@Url.Action("EstadoPagina", "CadEstado")';
+        var url_tam_pag_change = '@Url.Action("EstadoPagina", "CadEstado")';
+        var url_filtro_change = '@Url.Action("EstadoPagina", "CadEstado")';
+        var url_alterar = '@Url.Action("RecuperarEstado", "CadEstado")';
+        var linhas = [];
+
+        @{
+            var linha = 0;
+            foreach (var item in Model)
+            {
+                linha++;
+                if (linha <= ViewBag.QuantMaxLinhasPorPagina)
+                {
+                    @:linhas.push(@Html.Raw(Json.Encode(item)));
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+
+    </script>
+    <script id="template-grid" type="x-tmpl-mustache">
+        <tr data-id="{{ Id }}">
+            <td>{{ Nome }}</td>
+            <td>{{ UF }}</td>
+            <td>{{ #Ativo }}SIM{{ /Ativo }}{{ ^Ativo }}NÃO{{ /Ativo }}</td>
+            <td>
+                <a class="btn btn-primary btn-alterar" role="button"><i class="glyphicon glyphicon-pencil"></i> Alterar</a>
+                <a class="btn btn-danger btn-excluir" role="button"><i class="glyphicon glyphicon-trash"></i> Excluir</a>
+            </td>
+        </tr>
+    </script>
+
+    <script src="~/Scripts/Cadastro/Estado.js"></script>
+}
+
+

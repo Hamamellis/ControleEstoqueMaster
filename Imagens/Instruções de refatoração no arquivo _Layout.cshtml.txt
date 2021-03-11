@@ -1,0 +1,43 @@
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$ ls
+ControleEstoque.sln  ControleEstoque.Web/  packages/
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$ git push -u origin master
+Enumerating objects: 81, done.
+Counting objects: 100% (62/62), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (41/41), 410.29 KiB | 5.70 MiB/s, done.
+Total 41 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), completed with 7 local objects.
+remote:
+remote: GitHub found 1 vulnerability on Hamamellis/ControleEstoque's default branch (1 moderate). To find out more, visit:
+remote:      https://github.com/Hamamellis/ControleEstoque/network/alerts
+remote:
+To https://github.com/Hamamellis/ControleEstoque.git
+   306e54a..7292d71  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$ ls
+ControleEstoque.sln  ControleEstoque.Web/  packages/
+
+WAGNER@WagnerBarros MINGW64 /e/Novo Projeto - Controle de Estoque/ControleEstoque (master)
+$

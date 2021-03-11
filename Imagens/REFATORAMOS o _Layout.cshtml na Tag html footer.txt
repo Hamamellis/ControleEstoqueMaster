@@ -1,0 +1,70 @@
+
+WAGNER@WagnerBarros MINGW64 /e/Projeto Controle de Estoque (master)
+
+	$ cd ControleEstoque --> Direcionamos para a pasta desejada via gitCommand...
+
+WAGNER@WagnerBarros MINGW64 /e/Projeto Controle de Estoque/ControleEstoque (master)
+
+	$ git status --> Consultamos a atual situação...
+On branch master
+Your branch is up to date with 'origin/master'.
+
+ABAIXO, TEMOS ALGUMAS ALTERAÇÕES PENDENTES DE ADIÇÃO PARA RASTREAMENTO:
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+        modified:   .vs/ControleEstoque/v15/.suo
+        modified:   .vs/ControleEstoque/v15/Server/sqlite3/storage.ide-shm
+        modified:   .vs/ControleEstoque/v15/Server/sqlite3/storage.ide-wal
+        modified:   .vs/config/applicationhost.config
+        modified:   ControleEstoque.Web/Views/Shared/_Layout.cshtml
+        modified:   ControleEstoque.Web/bin/ControleEstoque.Web.dll
+        modified:   ControleEstoque.Web/bin/ControleEstoque.Web.pdb
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csproj.CoreCompileInputs.cache
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csproj.FileListAbsolute.txt
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csprojAssemblyReference.cache
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.dll
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.pdb
+
+WAGNER@WagnerBarros MINGW64 /e/Projeto Controle de Estoque/ControleEstoque (master)
+no changes added to commit (use "git add" and/or "git commit -a")
+
+	$ git add . --> Vamos adicionar para "Tracker" (Rastreio) todos os arquivos...
+
+WAGNER@WagnerBarros MINGW64 /e/Projeto Controle de Estoque/ControleEstoque (master)
+
+	$ git status
+
+On branch master
+Your branch is up to date with 'origin/master'. --> Informa que todos foram atualizado...
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+
+        modified:   .vs/ControleEstoque/v15/.suo
+        modified:   .vs/ControleEstoque/v15/Server/sqlite3/storage.ide-shm
+        modified:   .vs/ControleEstoque/v15/Server/sqlite3/storage.ide-wal
+        modified:   .vs/config/applicationhost.config
+        modified:   ControleEstoque.Web/Views/Shared/_Layout.cshtml
+        modified:   ControleEstoque.Web/bin/ControleEstoque.Web.dll
+        modified:   ControleEstoque.Web/bin/ControleEstoque.Web.pdb
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csproj.CoreCompileInputs.cache
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csproj.FileListAbsolute.txt
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.csprojAssemblyReference.cache
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.dll
+        modified:   ControleEstoque.Web/obj/Debug/ControleEstoque.Web.pdb
+
+WAGNER@WagnerBarros MINGW64 /e/Projeto Controle de Estoque/ControleEstoque (master)
+
+	$ git commit -m 'REFATORAMOS o "_Layout.cshtml" na Tag "html footer" na visibilidade
+	de quem estiver Logado, vai aparecer o Nome do Usuário, usando o "Is.Authenticated", 
+	se não aparece apenas o Nome do Aplicativo: Controle de Estoque'
+
+RESPOSTA:
+		[master 93715cd] REFATORAMOS o "_Layout.cshtml" na Tag "html footer" na visibilidade
+		de quem estiver Logado, vai aparecer o Nome do Usuário, usando o "Is.Authenticated", 
+		se não aparece apenas o Nome do Aplicativo: Controle de Estoque
+
+ 		12 files changed, 99 insertions(+), 5 deletions(-)
+ 		rewrite ControleEstoque/.vs/ControleEstoque/v15/.suo (63%)

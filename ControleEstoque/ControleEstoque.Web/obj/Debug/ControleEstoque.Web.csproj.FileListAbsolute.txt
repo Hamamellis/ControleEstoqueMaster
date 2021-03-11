@@ -1,0 +1,336 @@
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll.config
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.pdb
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe.config
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.rsp
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe.config
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.rsp
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.AppContext.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Console.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Compression.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Claims.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.ValueTuple.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe.config
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.rsp
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\WebGrease.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.pdb
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Helpers.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Mvc.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Optimization.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Razor.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CoreCompileInputs.cache
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CopyComplete
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.dll
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.pdb
+E:\Novo Projeto - Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csprojAssemblyReference.cache
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.AppContext.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Console.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Compression.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Claims.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.ValueTuple.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\WebGrease.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Helpers.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Mvc.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Optimization.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Razor.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CoreCompileInputs.cache
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CopyComplete
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csprojAssemblyReference.cache
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.AppContext.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Console.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Compression.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Claims.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.ValueTuple.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.rsp
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\WebGrease.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Helpers.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Mvc.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Optimization.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Razor.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CoreCompileInputs.cache
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CopyComplete
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.pdb
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Dapper.dll
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\bin\Dapper.xml
+E:\Projeto Controle de Estoque\ControleEstoque\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csprojAssemblyReference.cache
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll.config
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\ControleEstoque.Web.pdb
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.exe.config
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csc.rsp
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.exe.config
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\csi.rsp
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.AppContext.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Collections.Immutable.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Console.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Compression.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.IO.Pipes.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Reflection.Metadata.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.AccessControl.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Claims.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.ValueTuple.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.exe.config
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\vbc.rsp
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\roslyn\VBCSCompiler.exe.config
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Dapper.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\WebGrease.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Dapper.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Helpers.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Mvc.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Optimization.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.Razor.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\System.Web.WebPages.Razor.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Newtonsoft.Json.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Antlr3.Runtime.pdb
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Helpers.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Mvc.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Optimization.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.Razor.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csprojAssemblyReference.cache
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CoreCompileInputs.cache
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.csproj.CopyComplete
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.dll
+E:\Backup - Projeto Controle de Estoque\BackUp até dia 18.05.2020\ControleEstoque-master\ControleEstoque\ControleEstoque.Web\obj\Debug\ControleEstoque.Web.pdb

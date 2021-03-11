@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - About - Inventory Control - Training with by Ranieri Silva.</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/sweetalert2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="~/img/home/home_1.ico" style="width:10%; margin: 10px"/>
+                @Html.ActionLink("Controle de Estoque", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                @* - Vamos restringir acesso somente Se (If) estiverem logados... Usando "Request.IsAuthenticated" *@
+                @if (Request.IsAuthenticated)
+                {
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: yellow">
+                                Cadastros
+                                <span class="caret" style="color: dodgerblue"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: lightskyblue";>
+                                @*ABAIXO TEMOS: O LINK DO TEXTO - O NOME DA ACTION E O CONTROLLER *@
+                                <li>@Html.ActionLink("Grupo de Produtos", "Index", "CadGrupoProduto")</li>
+                                <li>@Html.ActionLink("Marcas de Produtos", "Index", "CadMarcaProduto")</li>
+                                <li>@Html.ActionLink("Locais de Armazenamento", "Index", "CadLocalArmazenamento")</li>
+                                <li>@Html.ActionLink("Unidades de Medidas", "Index", "CadUnidadeMedida")</li>
+                                <li>@Html.ActionLink("Produtos", "Index", "CadProduto")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Paises", "Index", "CadPais")</li>
+                                <li>@Html.ActionLink("Estados", "Index", "CadEstado")</li>
+                                <li>@Html.ActionLink("Cidades", "Index", "CadCidade")</li>
+                                <li>@Html.ActionLink("Fornecedores", "Index", "CadFornecedor")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Perfis de Usuários", "Index", "CadPerfil")</li>
+                                <li>@Html.ActionLink("Usuários", "Index", "CadUsuario")</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: yellow">
+                                Operações
+                                <span class="caret" style="color: dodgerblue"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: lightskyblue";>
+                                @*ABAIXO TEMOS: O LINK DO TEXTO - O NOME DA ACTION E O CONTROLLER *@
+                                <li>@Html.ActionLink("Entrada de Produtos", "Index", "OperEntradaProduto")</li>
+                                <li>@Html.ActionLink("Saída de Produtos", "Index", "OperSaidaProduto")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Lançamento de Perdas de Produtos", "LancPerdaProduto", "Operacao")</li>
+                                <li>@Html.ActionLink("Inventário de Estoque", "Index", "OperInventario")</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: yellow">
+                                Relatórios
+                                <span class="caret" style="color: dodgerblue"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: lightskyblue" ;>
+                                @*ABAIXO TEMOS: O LINK DO TEXTO - O NOME DA ACTION E O CONTROLLER *@
+                                <li>@Html.ActionLink("Posição de Estoque", "PosicaoEstoque", "Relatorio")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Ressuprimento", "Ressuprimento", "Relatorio")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Controle Operacional", "ControleOperacional", "Relatorio")</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: yellow">
+                                Gráficos
+                                <span class="caret" style="color: dodgerblue"></span>
+                            </a>
+                            <ul class="dropdown-menu" style="background-color: lightskyblue" ;>
+                                @*ABAIXO TEMOS: O NOME DO TEXTO - OS CONTROLLERS - E AS VIEWS*@
+                                <li>@Html.ActionLink("Perda por Mês", "PerdaMes", "Grafico")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Entrada versos Saída por mês", "EntradaSaidaMes", "Grafico")</li>
+                                <li class="nav-divider" style="border: groove"></li>
+                                <li>@Html.ActionLink("Coletas por mês", "ColetasPorMes", "Grafico")</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    @* - ABAIXO Temos o Elemento Form Html para o nome da Action "logOff" e o Controller "Conta" *@
+                    using (Html.BeginForm("logOff", "Conta", FormMethod.Post, new { id = "logoffForm" }))
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            @*ABAIXO TEMOS: O LINK DO TEXTO - O NOME DA ACTION E O CONTROLLER *@
+                            <li>@Html.ActionLink("Sobre", "Sobre", "Home")</li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: deepskyblue">
+                                    Olá! - @User.Identity.Name
+                                    <span class="caret" style="color: dodgerblue"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>@Html.ActionLink("Alteração de Senha", "AlterarSenhaUsuario", "Conta")</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript: document.getElementById('logoffForm').submit()">
+                                    <span>
+                                        <img src="~/img/_layoutSair/sair.ico" alt="ícone sair" style="width:45%" /> Sair
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    }
+                }
+                else
+                {
+                    <ul class="nav navbar-nav navbar-right">
+                        @*ABAIXO TEMOS: O NOME DO TEXTO - OS CONTROLLERS - E AS VIEWS*@
+                        <li>@Html.ActionLink("Login", "Login", "Conta")</li>
+                    </ul>
+                }
+
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+        @if (Request.IsAuthenticated)
+        {
+            <footer>
+                <p>&copy; @DateTime.Now.Year - Controle de Estoque -<spam style="color: red"> By @User.Identity.Name</spam></p>
+            </footer>
+        }
+        else
+        {
+            <footer>
+                <div class="rowimgfooter">
+                    <div class="col-md-3 col-md-offset-5">
+                        <img src="~/img/footer/callcenter.ico" alt="CallCenter no Footer" style="width:90%" />
+                    </div>
+                    <div class="col-md-9 col-md-offset-3">
+                        <p>&copy; @DateTime.Now.Year - <spam style="color: red"> 0800-15775-100 </spam></p>
+                    </div>
+                </div>
+            </footer>
+        }
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/sweetalert2.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

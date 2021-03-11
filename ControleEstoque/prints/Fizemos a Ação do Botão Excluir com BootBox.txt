@@ -1,0 +1,31 @@
+.on('click', '.btn-excluir', function () {
+                var btn = $(this),
+                    tr = btn.closest('tr'), // - Vamos pegar a linha 'tr'...
+                    id = tr.attr('data-id'), // - Vamos pegar o id na linha com o atributo... para enviar ao Sevidor!
+                    url = '@Url.Action("ExcluirGrupoProduto", "Cadastro")',
+                    param = { 'id': id };
+
+                bootbox.confirm({
+                    message: "Você Deseja realmente, excluir o Produto do Banco de Dados?",
+                    buttons: {
+                        confirm: {
+                            label: 'Sim',
+                            className: 'btn-success'
+                        },
+                        cancel: {
+                            label: 'Não',
+                            className: 'btn-danger'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.post(url, param, function (response) {
+                                if (response) {// Se a response for verdadeira,
+                                    tr.remove(); // Achando vai remover a linha com os dados...
+                                }
+                            });
+                        }
+                    }
+                });
+
+            });

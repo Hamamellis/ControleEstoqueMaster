@@ -1,0 +1,23 @@
+CREATE TABLE [dbo].[fornecedor] 
+(
+    [id]            INT           IDENTITY (1, 1) NOT NULL,
+    [nome]          VARCHAR (100) NOT NULL,
+    [razao_social]  VARCHAR (100) NULL,
+    [num_documento] VARCHAR (20)  NULL,
+    [tipo]          INT           NOT NULL,
+    [telefone]      VARCHAR (20)  NOT NULL,
+    [contato]       VARCHAR (100) NOT NULL,
+    [logradouro]    VARCHAR (100) NOT NULL,
+    [numero]        VARCHAR (20)  NOT NULL,
+    [complemento]   VARCHAR (200) NULL,
+    [cep]           VARCHAR (10)  NULL,
+    [id_pais]       INT           NOT NULL,
+    [id_estado]     INT           NOT NULL,
+    [id_cidade]     INT           NOT NULL,
+    [ativo]         BIT           NOT NULL,
+
+    CONSTRAINT [PK_fornecedor] PRIMARY KEY CLUSTERED ([id] ASC),
+    FOREIGN KEY ([id_pais]) REFERENCES [dbo].[pais] ([id]),
+    FOREIGN KEY ([id_estado]) REFERENCES [dbo].[estado] ([id]),
+    FOREIGN KEY ([id_cidade]) REFERENCES [dbo].[cidade] ([id])
+);
