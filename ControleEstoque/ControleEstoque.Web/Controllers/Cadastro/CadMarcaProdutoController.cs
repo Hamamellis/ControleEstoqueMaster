@@ -6,7 +6,6 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    //[Authorize(Roles = "Gerente,Administrativo,Operador")]
     [Authorize]
     public class CadMarcaProdutoController : Controller
     {
@@ -46,7 +45,6 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Roles = "Gerente,Administrativo")]
         [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult ExcluirMarcaProduto(int id)

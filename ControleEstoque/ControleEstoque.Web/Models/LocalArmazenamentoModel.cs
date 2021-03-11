@@ -63,6 +63,7 @@ namespace ControleEstoque.Web.Models
                     comando.CommandText = string.Format(
                         "select *" +
                         " from local_armazenamento" +
+                        filtroWhere +
                         " order by " + (!string.IsNullOrEmpty(ordem) ? ordem : "nome") +
                         " offset {0} rows fetch next {1} rows only",
                         pos > 0 ? pos - 1 : 0, tamPagina);

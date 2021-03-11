@@ -7,7 +7,7 @@ using ControleEstoque.Web.Models;
 
 namespace ControleEstoque.Web.Controllers.Cadastro
 {
-    [Authorize]
+    //[Authorize]
     public class CadUnidadeMedidaController : Controller
     {
         private const int _quantMaxLinhasPorPagina = 5;
@@ -28,7 +28,7 @@ namespace ControleEstoque.Web.Controllers.Cadastro
             return View(lista);
         }
 
-        [HttpPost]
+        //[HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult UnidadeMedidaPagina(int pagina, int tamPag, string filtro, string ordem)
@@ -38,7 +38,7 @@ namespace ControleEstoque.Web.Controllers.Cadastro
             return Json(lista);
         }
 
-        [HttpPost]
+        //[HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult RecuperarUnidadeMedida(int id)
@@ -46,7 +46,7 @@ namespace ControleEstoque.Web.Controllers.Cadastro
             return Json(UnidadeMedidaModel.RecuperarPeloId(id));
         }
 
-        [HttpPost]
+        //[HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult ExcluirUnidadeMedida(int id)
@@ -54,7 +54,7 @@ namespace ControleEstoque.Web.Controllers.Cadastro
             return Json(UnidadeMedidaModel.ExcluirPeloId(id));
         }
 
-        [HttpPost]
+        //[HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult SalvarUnidadeMedida(UnidadeMedidaModel model)

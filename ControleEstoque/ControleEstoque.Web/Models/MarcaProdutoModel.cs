@@ -61,9 +61,9 @@ namespace ControleEstoque.Web.Models
 
                     comando.Connection = conexao;
                     comando.CommandText = string.Format(
-                         "select *" +
+                        "select *" +
                         " from marca_produto" +
-                         filtroWhere +
+                        filtroWhere +
                         " order by " + (!string.IsNullOrEmpty(ordem) ? ordem : "nome") +
                         " offset {0} rows fetch next {1} rows only",
                         pos > 0 ? pos - 1 : 0, tamPagina);

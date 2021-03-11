@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    //[Authorize(Roles = "Gerente,Administrativo,Operador")]
+    [Authorize]
     public class CadLocalArmazenamentoController : Controller
     {
         private const int _quantMaxLinhasPorPagina = 5;
@@ -29,7 +29,7 @@ namespace ControleEstoque.Web.Controllers
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
-        public JsonResult LocalArmazenamentoPagina(int pagina, int tamPag, string ordem, string filtro)
+        public JsonResult LocalArmazenamentoPagina(int pagina, int tamPag, string filtro, string ordem)
         {
             var lista = LocalArmazenamentoModel.RecuperarLista(pagina, tamPag, filtro, ordem: ordem);
 
@@ -37,6 +37,7 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult RecuperarLocalArmazenamento(int id)
         {
@@ -44,7 +45,7 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult ExcluirLocalArmazenamento(int id)
         {
@@ -52,6 +53,7 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult SalvarLocalArmazenamento(LocalArmazenamentoModel model)
         {

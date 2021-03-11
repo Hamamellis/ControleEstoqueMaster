@@ -1,4 +1,5 @@
-﻿function set_dados_form(dados) {
+﻿
+function set_dados_form(dados) {
     $('#id_cadastro').val(dados.Id);
     $('#txt_nome').val(dados.Nome);
     $('#cbx_ativo').prop('checked', dados.Ativo);

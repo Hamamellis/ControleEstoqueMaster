@@ -40,9 +40,9 @@
 }
 
 @section TituloGrid {
-    <th><span class="coluna-ordenacao" data-campo="nome">Nome</span></th>
-    <th><span class="coluna-ordenacao" data-campo="ativo">Ativo</span></th>
-    <th>Ação</th>
+    <th><span class="coluna-ordenacao" data-campo="nome">Nome:</span></th>
+    <th><span class="coluna-ordenacao" data-campo="ativo">Ativo:</span></th>
+    <th>Ação:</th>
 }
 
 @section CamposCadastro {
@@ -60,19 +60,17 @@
             </div>
         </div>
     </div>
-
 }
 
 @section Scripts{
     <script src="~/Scripts/bootstrap-select.js"></script>
-
     <script>
         var tituloPagina = '@ViewBag.Title';
         var url_excluir = '@Url.Action("ExcluirMarcaProduto", "CadMarcaProduto")';
         var url_confirmar = '@Url.Action("SalvarMarcaProduto", "CadMarcaProduto")';
         var url_page_click = '@Url.Action("MarcaProdutoPagina", "CadMarcaProduto")';
-        var url_filtro_change = '@Url.Action("MarcaProdutoPagina", "CadMarcaProduto")';
         var url_tam_pag_change = '@Url.Action("MarcaProdutoPagina", "CadMarcaProduto")';
+        var url_filtro_change = '@Url.Action("MarcaProdutoPagina", "CadMarcaProduto")';
         var url_alterar = '@Url.Action("RecuperarMarcaProduto", "CadMarcaProduto")';
         var linhas = [];
 
