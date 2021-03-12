@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    //[Authorize(Roles = "Gerente,Administrativo,Operador")]
+    //[Authorize(Roles = "Gerente, Coordenador, Analista")]
     [Authorize]
     public class CadCidadeController : Controller
     {
