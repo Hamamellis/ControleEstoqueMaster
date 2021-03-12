@@ -17,7 +17,7 @@ namespace ControleEstoque.Web.Models
         [Display(Name = "Senha:")]
         public string Senha { get; set; }
 
-        [Display(Name = "Lembrar Me")]
+        [Display(Name = "Lembrar-me")]
         public bool LembrarMe { get; set; }
     }
 }
