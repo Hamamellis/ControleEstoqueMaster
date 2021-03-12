@@ -42,10 +42,10 @@ namespace ControleEstoque.Web.Models
                 var pos = (pagina - 1) * tamPagina;
 
                 var filtroWhere = "";
-                if (!string.IsNullOrEmpty(filtro))
-                {
-                    filtroWhere = string.Format(" where lower(nome) like '%{0}%'", filtro.ToLower());
-                }
+                    if (!string.IsNullOrEmpty(filtro))
+                    {
+                        filtroWhere = string.Format(" where lower(nome) like '%{0}%'", filtro.ToLower());
+                    }
 
                 var sql = string.Format(
                     "select *" +

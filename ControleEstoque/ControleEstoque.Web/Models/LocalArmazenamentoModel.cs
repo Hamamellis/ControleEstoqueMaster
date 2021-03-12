@@ -39,34 +39,24 @@ namespace ControleEstoque.Web.Models
             {
                 conexao.ConnectionString = ConfigurationManager.ConnectionStrings["principal"].ConnectionString;
                 conexao.Open();
-                using (var comando = new SqlCommand())
-                {
 
-                    var filtroWhere = "";
+                var pos = (pagina - 1) * tamPagina;
+
+                var filtroWhere = "";
                     if (!string.IsNullOrEmpty(filtro))
                     {
                         filtroWhere = string.Format(" where lower(nome) like '%{0}%'", filtro.ToLower());
                     }
+                    
+                var sql = string.Format(
+                    "select *" +
+                    " from local_armazenamento" +
+                    filtroWhere +
+                    " order by " + (!string.IsNullOrEmpty(ordem) ? ordem : "nome") +
+                    " offset {0} rows fetch next {1} rows only",
+                    pos > 0 ? pos - 1 : 0, tamPagina);
 
-                    var pos = (pagina - 1) * tamPagina;
-
-                    var paginacao = "";
-                    if (pagina > 0 && tamPagina > 0)
-                    {
-                        paginacao = string.Format(" offset {0} rows fetch next {1} rows only",
-                            pos > 0 ? pos - 1 : 0, tamPagina);
-                    }
-
-                    var sql = string.Format(
-                        "select *" +
-                        " from local_armazenamento" +
-                        " order by " + (!string.IsNullOrEmpty(ordem) ? ordem : "nome") +
-                        " offset {0} rows fetch next {1} rows only",
-                        pos > 0 ? pos - 1 : 0, tamPagina) +
-                        paginacao;
-
-                    ret = conexao.Query<LocalArmazenamentoModel>(sql).ToList();
-                }
+                ret = conexao.Query<LocalArmazenamentoModel>(sql).ToList();                
             }
 
             return ret;
