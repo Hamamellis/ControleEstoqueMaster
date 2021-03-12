@@ -6,8 +6,7 @@ using System.Web.Mvc;
 
 namespace ControleEstoque.Web.Controllers
 {
-    //[Authorize(Roles = "Gerente,Administrativo,Operador")]
-    [Authorize]
+    [Authorize(Roles = "Gerente,Administrativo,Operador")]
     public class CadCidadeController : Controller
     {
         private const int _quantMaxLinhasPorPagina = 5;
@@ -29,7 +28,6 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult CidadePagina(int pagina, int tamPag, string filtro, string ordem)
         {
@@ -39,7 +37,6 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult RecuperarCidade(int id)
         {
@@ -56,8 +53,7 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        [Authorize]
-        //[Authorize(Roles = "Gerente,Administrativo")]
+        [Authorize(Roles = "Gerente,Administrativo")]
         [ValidateAntiForgeryToken]
         public JsonResult ExcluirCidade(int id)
         {
@@ -65,7 +61,6 @@ namespace ControleEstoque.Web.Controllers
         }
 
         [HttpPost]
-        [Authorize]
         [ValidateAntiForgeryToken]
         public JsonResult SalvarCidade(CidadeModel model)
         {

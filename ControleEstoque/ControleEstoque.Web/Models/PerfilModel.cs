@@ -37,7 +37,7 @@ namespace ControleEstoque.Web.Models
             return ret;
         }
 
-        public static List<PerfilModel> RecuperarLista(int pagina, int tamPagina, string ordem = "")
+        public static List<PerfilModel> RecuperarLista(int pagina, int tamPagina, string filtro = "", string ordem = "")
         {
             var ret = new List<PerfilModel>();
 
@@ -46,14 +46,27 @@ namespace ControleEstoque.Web.Models
                 conexao.ConnectionString = ConfigurationManager.ConnectionStrings["principal"].ConnectionString;
                 conexao.Open();
 
+                var filtroWhere = "";
+                if (!string.IsNullOrEmpty(filtro))
+                {
+                    filtroWhere = string.Format(" where lower(nome) like '%{0}%'", filtro.ToLower());
+                }
+
                 var pos = (pagina - 1) * tamPagina;
+                var paginacao = "";
+                if (pagina > 0 && tamPagina > 0)
+                {
+                    paginacao = string.Format(" offset {0} rows fetch next {1} rows only",
+                        pos > 0 ? pos - 1 : 0, tamPagina);
+                }
 
                 var sql = string.Format(
                     "select *" +
                     " from perfil" +
                     " order by " + (!string.IsNullOrEmpty(ordem) ? ordem : "nome") +
                     " offset {0} rows fetch next {1} rows only",
-                    pos > 0 ? pos - 1 : 0, tamPagina);
+                    pos > 0 ? pos - 1 : 0, tamPagina) +
+                    paginacao;
 
                 ret = conexao.Query<PerfilModel>(sql).ToList();
             }
